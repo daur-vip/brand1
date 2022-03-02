@@ -1,3 +1,5 @@
+@import "_null";
+
 body {
    margin: 0;
    font-size: 40px;
@@ -13,9 +15,11 @@ body {
 }
 
 .header {
+   height: 75px;
    background-color: #222222;
    color: white;
-   padding: 19px 0;
+   display: flex;
+   align-items: center;
 }
 
 .header-wrap {
@@ -35,4 +39,28 @@ body {
 .footer {
    background-color: #222222;
    color: white;
+}
+
+.logo {
+   height: 40px;
+}
+
+.header-left {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 85px;
+}
+
+.header-right {
+   display: flex;
+   align-items: center;
+}
+
+.profile {
+   margin-left: 26px;
+}
+
+.cart {
+   margin-left: 26px;
 }
