@@ -13,65 +13,75 @@
 </head>
 
 <body>
-   <div class="header">
+   <header class="header">
       <div class="wrap header-wrap">
          <div class="header-left">
-            <img class="logo"
-               src="data:image/png;base64,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" />
-            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="27" height="27"
-               viewBox="0 0 27 27" style=" fill:#ffffff;">
-               <path
-                  d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
-               </path>
-            </svg>
+            <a href="#" class="header-logo"><img src="img/logo.svg" alt="Logo"></a>
+            <button type="button" class="header-search"><img src=" img/icon-search.svg" alt="Search"></button>
          </div>
          <div class="header-right">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 24 24"
-               style=" fill:#fff;">
-               <path
-                  d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z">
-               </path>
-            </svg>
-            <svg class="profile" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
-               viewBox="0 0 172 172" style=" fill:#000000;">
-               <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                  stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                  font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                  style="mix-blend-mode: normal">
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#ffffff">
-                     <path
-                        d="M86,21.5c-17.7627,0 -32.25,14.4873 -32.25,32.25c0,17.7627 14.4873,32.25 32.25,32.25c17.7627,0 32.25,-14.4873 32.25,-32.25c0,-17.7627 -14.4873,-32.25 -32.25,-32.25zM86,86c-29.60449,0 -53.75,24.14551 -53.75,53.75h10.75c0,-23.80957 19.19043,-43 43,-43c23.80957,0 43,19.19043 43,43h10.75c0,-29.60449 -24.14551,-53.75 -53.75,-53.75zM86,32.25c11.92578,0 21.5,9.57422 21.5,21.5c0,11.92578 -9.57422,21.5 -21.5,21.5c-11.92578,0 -21.5,-9.57422 -21.5,-21.5c0,-11.92578 9.57422,-21.5 21.5,-21.5z">
-                     </path>
-                  </g>
-               </g>
-            </svg>
-            <svg class="cart" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
-               viewBox="0 0 172 172" style=" fill:#000000;">
-               <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                  stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                  font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                  style="mix-blend-mode: normal">
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#ffffff">
-                     <path
-                        d="M0,0v14.33333h23.06771l28.66667,114.66667h96.97396l1.56771,-5.15104l14.78125,-49.71875l5.15104,-16.79688h-121.60937l-14.33333,-57.33333zM52.18229,71.66667h98.76563l-12.98958,43h-75.02604zM75.25,136.16667c-9.88216,0 -17.91667,8.03451 -17.91667,17.91667c0,9.88216 8.03451,17.91667 17.91667,17.91667c9.88216,0 17.91667,-8.03451 17.91667,-17.91667c0,-9.88216 -8.03451,-17.91667 -17.91667,-17.91667zM125.41667,136.16667c-9.88216,0 -17.91667,8.03451 -17.91667,17.91667c0,9.88216 8.03451,17.91667 17.91667,17.91667c9.88216,0 17.91667,-8.03451 17.91667,-17.91667c0,-9.88216 -8.03451,-17.91667 -17.91667,-17.91667z">
-                     </path>
-                  </g>
-               </g>
-            </svg>
+            <button type="button" class="header-menu">
+               <img src=" img/icon-menu.svg" alt="Menu">
+            </button>
+            <a href="#" class="header-profile"><img src="img/icon-profile.svg" alt="Profile"></a>
+            <a href="#" class="header-cart"><img src="img/icon-cart.svg" alt="Cart"></a>
          </div>
       </div>
-   </div>
-   <div class="promo">
-      <div class="wrap">Промо розовый блок</div>
-   </div>
-   <div class="content">
+   </header>
+
+
+   <section class="promo">
+      <div class="wrap promo-wrap">
+         <h1 class="promo-title">
+            THE BRAND <br /> <span class="promo-title--small">OF LUXORIOUS <span
+                  class="promo-title--pink">FASHION</span></span>
+         </h1>
+      </div>
+   </section>
+
+
+   <main class="content">
       <div class="wrap">
-         <div class="offers">Предложения</div>
+         <section class="offers-wrap">
+            <div class="offers-item offers-item--women">
+               <p class="offers-item--sale">
+                  30% OFF
+               </p>
+               <p class="offers-item--name">
+                  FOR WOMEN
+               </p>
+            </div>
+            <div class="offers-item offers-item--men">
+               <p class="offers-item--sale">
+                  HOT DEAL
+               </p>
+               <p class="offers-item--name">
+                  FOR MEN
+               </p>
+            </div>
+            <div class="offers-item offers-item--kids">
+               <p class="offers-item--sale">
+                  NEW ARRIVALS
+               </p>
+               <p class="offers-item--name">
+                  FOR KIDS
+               </p>
+            </div>
+            <div class="offers-item offers-item--accessories">
+               <p class="offers-item--sale">
+                  LUXURIOUS & TRENDY
+               </p>
+               <p class="offers-item--name">
+                  ACCESSORIES
+               </p>
+            </div>
+
+         </section>
          <div class="featured">Featured</div>
       </div>
-   </div>
+   </main>
+
+
    <div class="benifits">
       <div class="wrap">Преимущества</div>
    </div>
