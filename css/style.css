@@ -98,7 +98,6 @@ body {
 
 .wrap {
   width: 1140px;
-  outline: 1px solid red;
   margin: 0 auto;
 }
 
@@ -166,11 +165,8 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-
-.footer {
-  background-color: #222222;
-  color: white;
+  padding-top: 65px;
+  padding-bottom: 95px;
 }
 
 .header-logo {
@@ -211,7 +207,6 @@ body {
 }
 
 .offers-wrap {
-  margin-top: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,4 +342,206 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #f26376;
+}
+
+.benefits {
+  background-color: #222224;
+  padding: 103px 0;
+}
+
+.benefits-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
+}
+
+.benefits-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.benefits-item--1 {
+  background-image: url(../img/benefits-1.svg);
+}
+
+.benefits-item--2 {
+  background-image: url(../img/benefits-2.svg);
+}
+
+.benefits-item--3 {
+  background-image: url(../img/benefits-3.svg);
+}
+
+.benefits-item--title {
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #fbfbfb;
+}
+
+.benefits-item--text {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.subscribe {
+  height: 448px;
+  background-image: url(../img/subscribe-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.subsrcibe-review {
+  width: 360px;
+  background-image: url(../img/review.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.subscribe-review--text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+  padding-top: 126px;
+}
+
+.subscribe-section {
+  width: 558px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe-section--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 33px;
+}
+
+.subscribe-section--title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+}
+
+.subscribe-section--text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+}
+
+.subscribe-section--input {
+  background: #e1e1e1;
+  outline: none;
+  border: none;
+  width: 256px;
+  height: 49px;
+  border-radius: 24px 0 0 24px;
+}
+
+.subscribe-section--input::-webkit-input-placeholder {
+  padding-left: 23px;
+}
+
+.subscribe-section--input:-ms-input-placeholder {
+  padding-left: 23px;
+}
+
+.subscribe-section--input::-ms-input-placeholder {
+  padding-left: 23px;
+}
+
+.subscribe-section--input::placeholder {
+  padding-left: 23px;
+}
+
+.subscribe-section--link {
+  text-decoration: none;
+}
+
+.subscribe-section--button {
+  width: 100px;
+  height: 49px;
+  background: #f16d7f;
+  border-radius: 0 24px 24px 0;
+  text-align: center;
+  line-height: 49px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.bottom {
+  background-color: #222224;
+  padding: 24px 0;
+}
+
+.bottom-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom-rights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+.bottom-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7px;
 }
